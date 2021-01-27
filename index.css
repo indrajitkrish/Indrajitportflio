@@ -19,6 +19,7 @@ body
 {
     display: inline;
 	padding: 1rem;
+	font-size:20px;
 }
 .nav{
     list-style: none;
@@ -36,6 +37,10 @@ body
 {
 	text-decoration: none;
 	  color: var(--white);
+}
+.link:hover
+{
+	color: var(--blue);
 }
 .link-in
 {
@@ -113,11 +118,6 @@ body
 	text-align: center;
   
 }
-.linkfoot
-{
-	text-decoration: none;
-	  color: var(--white);
-}
 .navfoot
 {
 	list-style: none;
@@ -126,4 +126,23 @@ body
 .foothead
 {
 	padding-top:1rem;
+	font-size:20px;
+	font-weight:bold;
+	color:var(--blue);
+}
+.nav-bar_2
+{
+	font-size:50px;
+	width:50px;
+	 display: inline;
+	padding: 1rem;
+}
+.fa
+{
+	text-decoration:none;
+	color: var(--white);
+}
+.fa:hover
+{
+	color:var(--blue);
 }
