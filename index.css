@@ -38,6 +38,11 @@ body
 	text-decoration: none;
 	  color: var(--white);
 }
+.link-active
+{
+	font-weight:bold;
+	color: var(--blue);
+}
 .link:hover
 {
 	color: var(--blue);
@@ -52,7 +57,7 @@ body
 	padding-left: 1rem;
 	font-weight:bold;
 	color:var(--blue);
-	font-size:20px;
+	font-size:25px;
 }
 .main-img
 {
@@ -89,19 +94,32 @@ body
 	padding: 0.25rem;
 	font-size: 25px;
 }
+.dev-div-border
+{
+	text-align: center;
+	text-align: justify;
+	padding: 0.25rem;
+	font-size: 25px;
+	background-color:var(--white);
+}
 .not
 {
 	text-align: center;
 	text-align: justify;
 	padding: 0.25rem;
 	font-size: 25px;
-	background-color: var(--white)
+	background-color: var(--white);
 }
 .in-sec
 {
 	max-width: 600px;
 	margin: auto;
 }
+/*.in-sec-border
+{
+	max-width: 600px;
+	margin: auto;
+}*/
 .high
 {
 	color: var(--blue);
@@ -114,14 +132,14 @@ body
 .footer
 {
     background-color: var(--pink);
-	border-bottom-right-radius: 1rem;
+	border-top-right-radius: 1rem;
 	text-align: center;
   
 }
 .navfoot
 {
 	list-style: none;
-	padding: 1rem;
+
 }
 .foothead
 {
@@ -145,4 +163,17 @@ body
 .fa:hover
 {
 	color:var(--blue);
+}
+.copy
+{
+	color:var(--blue);
+	padding-bottom:1rem;
+}
+.link-in
+{
+	text-decoration:none;
+	/*background-color:var(--blue);*/
+	border-radius:0.5rem;
+	padding:0.5rem 0.5rem;
+	color:var(--pink);
 }
