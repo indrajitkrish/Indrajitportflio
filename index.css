@@ -8,8 +8,6 @@
 	--tex:#FFB562;
 	--rwhite:#f1faee;
 }
-
-
 body
 {
 	font-family: "Monospace","Serif";
@@ -146,7 +144,7 @@ body
 .nav-bar_2
 {
 	font-size:50px;
-	width:50px;
+	max-width:50px;
 	 display: inline;
 	padding: 1rem;
 }
