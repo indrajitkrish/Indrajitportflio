@@ -2,18 +2,18 @@
 
 :root
 {
-	--pink:#e63946; 
-	--white:#a8dadc;
-	--blue:#1d3557;
-	--tex:#457b9d;
-	--rwhite:#f1faee
+	--pink:#F87474; 
+	--white:#F9F2ED;
+	--blue:#3AB0FF;
+	--tex:#FFB562;
+	--rwhite:#f1faee;
 }
 
 
 body
 {
 	font-family: "Monospace","Serif";
-	margin: 0px;
+	margin: 10px;
 }
 .nav-bar
 {
@@ -115,11 +115,6 @@ body
 	max-width: 600px;
 	margin: auto;
 }
-/*.in-sec-border
-{
-	max-width: 600px;
-	margin: auto;
-}*/
 .high
 {
 	color: var(--blue);
