@@ -49,6 +49,11 @@ body
 {
 	text-decoration: none;
 }
+.git-link
+{
+	color: var(--blue);
+	text-decoration: none;
+}
 .head
 {
 	padding-top: 1rem;
