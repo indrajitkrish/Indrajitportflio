@@ -49,10 +49,24 @@ body
 {
 	text-decoration: none;
 }
+.link-in:hover
+{
+   color: var(--tex);
+}
+.head-pro
+{
+	Color: var(--pink);
+	text-decoration: none;
+}
 .git-link
 {
 	color: var(--blue);
 	text-decoration: none;
+}
+.git-link:hover
+{
+	/**color: linear-gradient(to right, #FFB562, #FFB562, #FFB562, #FFB562);**/
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
 .head
 {
@@ -174,4 +188,13 @@ body
 	border-radius:0.5rem;
 	padding:0.5rem 0.5rem;
 	color:var(--pink);
+}
+.pro
+{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.pro-des
+{
+	font-size: 25px;
 }
