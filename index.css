@@ -198,3 +198,21 @@ body
 {
 	font-size: 25px;
 }
+.blo
+{
+	text-align: center;
+	color: var(--tex);
+}
+.blo-like
+{
+	text-align:center;
+	color: var(--blue);
+}
+.blogger
+{
+	text-decoration:none;
+}
+.blogger:hover
+{
+  color: var(--pink);
+}
