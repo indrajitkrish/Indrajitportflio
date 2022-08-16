@@ -7,6 +7,7 @@
 	--blue:#F7EC09;
 	--tex:#3EC70B;
 	--rwhite:#f1faee;
+	--darkblue:#3B44F6;
 }
 body
 {
@@ -51,22 +52,30 @@ body
 }
 .link-in:hover
 {
-   color: var(--tex);
+	box-shadow: 0 4px 15px 0 rgba(247, 236, 9, 1);
+	border-radius: 5px;
 }
 .head-pro
 {
-	Color: var(--pink);
+	Color: var(--darkblue);
 	text-decoration: none;
 }
 .git-link
 {
-	color: var(--blue);
+	color: var(--tex);
 	text-decoration: none;
+}
+#float{
+float:right;
+}
+#rght{
+	float:left;
 }
 .git-link:hover
 {
 	/**color: linear-gradient(to right, #FFB562, #FFB562, #FFB562, #FFB562);**/
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    box-shadow: 0 4px 15px 0 rgba(247, 236, 9, 1);
+	border-radius: 5px;
 }
 .head
 {
@@ -85,7 +94,7 @@ body
 .p-in-head
 {
 	text-align: center;
-	color: var(--blue);
+	color: var(--darkblue);
 	font-size:50px;
 }
 
@@ -93,7 +102,7 @@ body
 {
 	font-size:25px;
 	text-align: center;
-	color:var(--pink);
+	color:var(--tex);
 	max-width: 800px;
 	margin: auto;
 	padding-bottom: 1rem;
@@ -113,11 +122,12 @@ body
 }
 .dev-div-border
 {
+	background-color:rgb(247, 236, 9,0.2);
 	text-align: center;
 	text-align: justify;
 	padding: 0.25rem;
 	font-size: 25px;
-	background-color:var(--white);
+	
 }
 .not
 {
@@ -134,11 +144,12 @@ body
 }
 .high
 {
-	color: var(--blue);
+	color: var(--tex);
+	font-weight: 500;
 }
 .developer
 {
-	color: var(--blue);
+	color: var(--darkblue);
 	text-align: center;
 }
 .footer
@@ -185,14 +196,31 @@ body
 {
 	text-decoration:none;
 	/*background-color:var(--blue);*/
-	border-radius:0.5rem;
-	padding:0.5rem 0.5rem;
-	color:var(--pink);
+	padding: 0.5 rem;
+	color:var(--tex);
+}
+#btn{
+	font-size: 25px;
+	padding: 0.5rem;
+	border-radius: 25px;
+	background-color: var(--darkblue);
+	border: none;
 }
 .pro
 {
   margin-left: 10rem;
   margin-right: 10rem;
+  list-style-type: none;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.pro-border{
+	margin-left: 10rem;
+  margin-right: 10rem;
+  list-style-type: none;
+  background-color:rgb(247, 236, 9,0.2);
+  padding: 1rem 5rem;
+  border-radius: 25px;
 }
 .pro-des
 {
