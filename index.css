@@ -228,13 +228,38 @@ body
 .blo-like
 {
 	text-align:center;
-	color: var(--blue);
+	color: var(--darkblue);
 }
 .blogger
 {
 	text-decoration:none;
 }
-.blogger:hover
-{
-  color: var(--pink);
+.blogger:hover{
+	color:#F7EC09;
 }
+.box {
+	float: left;
+	padding: 50px;
+	background-color: var(--tex);
+  }
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+	margin-bottom: 10%;
+  }
+  .blog-name{
+	text-decoration: none;
+	color:#3B44F6;
+  }
+  .view_blog{
+	text-decoration:dotted;
+	color:#F7EC09;
+  }
+  .blog-name:hover , .view_blog:hover{
+	color:#A149FA;
+  }
+  .blog-box{
+	color:white;
+	list-style-type: none;
+  }
