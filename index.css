@@ -49,6 +49,9 @@ body
 .link-in
 {
 	text-decoration: none;
+	/*background-color:var(--blue);*/
+	padding: 0.5 rem;
+	color:var(--tex);
 }
 .link-in:hover
 {
@@ -185,13 +188,6 @@ body
 {
 	color:var(--blue);
 	padding-bottom:1rem;
-}
-.link-in
-{
-	text-decoration:none;
-	/*background-color:var(--blue);*/
-	padding: 0.5 rem;
-	color:var(--tex);
 }
 #btn{
 	font-size: 20px;
