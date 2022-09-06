@@ -259,3 +259,13 @@ body
 	color:white;
 	list-style-type: none;
   }
+  button{
+	font-size: large;
+	border-color:#3B44F6;
+	border-radius: 10px;
+	padding: 0.5rem;
+  }
+  a{
+	text-decoration: none;
+	color:#3EC70B;
+  }
